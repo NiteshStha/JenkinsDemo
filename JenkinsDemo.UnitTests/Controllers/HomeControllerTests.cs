@@ -19,7 +19,7 @@ namespace JenkinsDemo.UnitTests.Controllers
         {
             var result = _controller.Index();
             Assert.IsNotNull(result);
-            Assert.IsNotInstanceOf<ViewResult>(result);
+            Assert.IsInstanceOf<ViewResult>(result);
         }
 
         public void Dispose()
