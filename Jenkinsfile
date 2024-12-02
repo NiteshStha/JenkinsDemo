@@ -42,7 +42,7 @@ pipeline {
             steps {
                 script {
                     // Publishing the application
-                    bat "dotnet publish --no-restore --configuration Release --output .\\publish"
+                    bat "dotnet publish --no-restore --configuration Release --output C:\\inetpub\\wwwroot\\JenkinsDemo"
                 }
             }
         }
