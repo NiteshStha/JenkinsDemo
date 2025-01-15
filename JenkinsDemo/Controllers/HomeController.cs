@@ -12,7 +12,6 @@ namespace JenkinsDemo.Controllers
 
         public IActionResult Index()
         {
-            var a = "test";
             return View();
         }
 
